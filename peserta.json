@@ -1,8 +1,14 @@
 {
     "peserta" : [
-        {"nama":"Rachmad Irawan",
+        {
+            "nama":"Rachmad Irawan",
          "github":"https://github.com/rachmadirawan",
          "kota":"Surabaya"  
+        },
+        {
+         "nama":"Irawan",
+         "github":"https://github.com/irawan",
+         "kota":"Surabaya"
         }
     ]
 }

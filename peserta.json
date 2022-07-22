@@ -1,0 +1,13 @@
+{
+    "peserta" :
+    [
+        {
+            "nama" : "Mohammad Alfi Rizzi",
+            "kelas" : "GOLANG"
+        },
+        {
+            "nama" : "Lorem Ipsum",
+            "kelas" : "GOLANG"
+        }
+    ]
+}

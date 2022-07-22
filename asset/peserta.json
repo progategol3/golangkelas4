@@ -1,1 +1,9 @@
-
+{
+  "peserta" = [
+                {"nama":"Rachmad Irawan",
+                 "github":"https://github.com/rachmadirawan",
+                 "kota":"Surabaya"
+              },
+              
+  ]
+}

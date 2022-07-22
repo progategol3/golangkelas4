@@ -1,0 +1,31 @@
+
+body{
+    font-family: Futura;
+    float: left;
+    /* background-color: black; */
+    background-size: 1365px 700px;
+    background-image: url(E:/key/pexels-bich-tran-669996.jpg);
+
+}
+body h1{
+    margin-left: 340px;
+    font-size: 40px;
+    color: rgba(245, 245, 245, 0.63);
+    border-bottom: 1.8px solid rgba(127, 131, 131, 0.089);
+}
+h2{
+    margin-left: 590px;
+    color: rgba(245, 239, 240, 0.863);
+}
+body p{
+    font-family: Geneva;
+    color: beige;
+}
+.top{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+ul{
+    color: beige;
+}

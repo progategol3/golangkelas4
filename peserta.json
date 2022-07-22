@@ -1,7 +1,8 @@
 {
+
     "peserta" : [
         {
-            "nama":"Rachmad Irawan",
+         "nama":"Rachmad Irawan",
          "github":"https://github.com/rachmadirawan",
          "kota":"Surabaya"  
         },
@@ -14,6 +15,11 @@
          "nama":"Kevin Putra",
          "github":"https://github.com/kevinapps14",
          "kota":"Jakarta"
+         {
+            "nama" : "wibu-elite",
+            "github" : "https://github.com/wibu-elite",
+            "kota" : "Tuban"
         }
     ]
 }
+

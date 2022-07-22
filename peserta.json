@@ -39,10 +39,15 @@
         "kota": "Jakarta Selatan"
        },
        {
-      "nama": "MOCH IQBAL AR RASYID",
-      "github": "https://github.com/kingrootid",
-      "kota": "Malang"
-    }
+        "nama": "MOCH IQBAL AR RASYID",
+        "github": "https://github.com/kingrootid",
+        "kota": "Malang"
+        },
+        {
+        "nama":"Jimmy Arianda Bahari",
+        "github":"https://github.com/jimmyarianda",
+        "kota":"Pekanbaru"
+        }
 
     ]
 

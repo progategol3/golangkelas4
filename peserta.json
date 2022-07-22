@@ -1,4 +1,5 @@
 {
+
     "peserta" : [
         {
             "nama":"Rachmad Irawan",
@@ -14,6 +15,29 @@
             "nama":"Muhammad Halim Dirgantara",
             "github":"https://github.com/halimdirgantara",
             "kota":"Sekadau"
-        }
+        },
+        {
+         "nama":"Jution Candra Kirana",
+         "github":"https://github.com/jutionck",
+         "kota":"Jakarta"
+        },
+        {
+         "nama":"Kevin Putra",
+         "github":"https://github.com/kevinapps14",
+         "kota":"Jakarta"
+         {
+         },
+            "nama" : "wibu-elite",
+            "github" : "https://github.com/wibu-elite",
+            "kota" : "Tuban"
+        },
+         {
+        "nama": "M. Ichsan Fauzan",
+        "github": "https://github.com/Misanfauzan",
+        "kota": "Jakarta Selatan"
+       }
+
     ]
+
 }
+

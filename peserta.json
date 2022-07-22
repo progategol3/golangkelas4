@@ -1,5 +1,7 @@
 {
 
+  "peserta": [
+
     "peserta" : [
         {
             "nama":"Rachmad Irawan",
@@ -35,9 +37,13 @@
         "nama": "M. Ichsan Fauzan",
         "github": "https://github.com/Misanfauzan",
         "kota": "Jakarta Selatan"
-       }
+       },
+       {
+      "nama": "MOCH IQBAL AR RASYID",
+      "github": "https://github.com/kingrootid",
+      "kota": "Malang"
+    }
 
     ]
 
 }
-

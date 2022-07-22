@@ -1,19 +1,32 @@
 {
-  "peserta": [
-    {
-      "nama": "Rachmad Irawan",
-      "github": "https://github.com/rachmadirawan",
-      "kota": "Surabaya"
-    },
-    {
-      "nama": "Irawan",
-      "github": "https://github.com/irawan",
-      "kota": "Surabaya"
-    },
-    {
-      "nama": "M. Ichsan Fauzan",
-      "github": "https://github.com/Misanfauzan",
-      "kota": "Jakarta Selatan"
-    }
-  ]
+
+    "peserta" : [
+        {
+         "nama":"Rachmad Irawan",
+         "github":"https://github.com/rachmadirawan",
+         "kota":"Surabaya"  
+        },
+        {
+         "nama":"Irawan",
+         "github":"https://github.com/irawan",
+         "kota":"Surabaya"
+        },
+        {
+         "nama":"Kevin Putra",
+         "github":"https://github.com/kevinapps14",
+         "kota":"Jakarta"
+         {
+         },
+            "nama" : "wibu-elite",
+            "github" : "https://github.com/wibu-elite",
+            "kota" : "Tuban"
+        },
+         {
+        "nama": "M. Ichsan Fauzan",
+        "github": "https://github.com/Misanfauzan",
+        "kota": "Jakarta Selatan"
+       }
+    ]
+
 }
+

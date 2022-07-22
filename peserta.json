@@ -1,14 +1,19 @@
 {
-    "peserta" : [
-        {
-            "nama":"Rachmad Irawan",
-         "github":"https://github.com/rachmadirawan",
-         "kota":"Surabaya"  
-        },
-        {
-         "nama":"Irawan",
-         "github":"https://github.com/irawan",
-         "kota":"Surabaya"
-        }
-    ]
+  "peserta": [
+    {
+      "nama": "Rachmad Irawan",
+      "github": "https://github.com/rachmadirawan",
+      "kota": "Surabaya"
+    },
+    {
+      "nama": "Irawan",
+      "github": "https://github.com/irawan",
+      "kota": "Surabaya"
+    },
+    {
+      "nama": "M. Ichsan Fauzan",
+      "github": "https://github.com/Misanfauzan",
+      "kota": "Jakarta Selatan"
+    }
+  ]
 }

@@ -16,10 +16,17 @@
          "github":"https://github.com/kevinapps14",
          "kota":"Jakarta"
          {
+         },
             "nama" : "wibu-elite",
             "github" : "https://github.com/wibu-elite",
             "kota" : "Tuban"
-        }
+        },
+         {
+        "nama": "M. Ichsan Fauzan",
+        "github": "https://github.com/Misanfauzan",
+        "kota": "Jakarta Selatan"
+       }
     ]
+
 }
 

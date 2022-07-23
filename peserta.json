@@ -31,16 +31,15 @@
             "github" : "https://github.com/wibu-elite",
             "kota" : "Tuban"
         },
-    {
-        "nama": "LUTFI IHSAN",
-        "github": "https://github.com/lutfiihsan",
-        "kota": "Bogor"
-    },
-
-      {
-        "nama":"Lukas Ono Harsongko",
-        "github":"https://github.com/LukasOnoHarsongko",
-        "kota":"Tangerang"  
+        {
+            "nama": "LUTFI IHSAN",
+            "github": "https://github.com/lutfiihsan",
+            "kota": "Bogor"
+        },
+        {
+            "nama":"Lukas Ono Harsongko",
+            "github":"https://github.com/LukasOnoHarsongko",
+            "kota":"Tangerang"  
         },
         {
             "nama": "Juang Sabit Al Nadiev",
@@ -73,13 +72,11 @@
             "kota": "Jakarta Selatan"
         },
         {
-
             "nama": "Muhammad Anshori",
             "github": "https://github.com/anshori",
             "kota": "Yogyakarta"
         },
         {
- 
             "nama": "Mohammad Alfi Rizzi",
             "github": "https://github.com/mohammadalfirizzi",
             "kota": "Kediri"

@@ -1,47 +1,135 @@
 {
 
-    "peserta" : [
+    "peserta": [
         {
-            "nama":"Rachmad Irawan",
-            "github":"https://github.com/rachmadirawan",
-            "kota":"Surabaya"  
+            "nama": "Rachmad Irawan",
+            "github": "https://github.com/rachmadirawan",
+            "kota": "Surabaya"
         },
         {
-            "nama":"Irawan",
-            "github":"https://github.com/irawan",
-            "kota":"Surabaya"
+            "nama": "Muhammad Halim Dirgantara",
+            "github": "https://github.com/halimdirgantara",
+            "kota": "Sekadau"
+        }, 
+        {
+            "nama":"Mohamad Perdana Hartono",
+            "github":"https://github.com/mohamadperdana",
+            "kota" : "surakarta"
         },
         {
-            "nama":"Muhammad Halim Dirgantara",
-            "github":"https://github.com/halimdirgantara",
-            "kota":"Sekadau"
+            "nama":"Jution Candra Kirana",
+            "github":"https://github.com/jutionck",
+            "kota":"Jakarta"
+        },
+	{
+            "nama": "MUCHAMAD DESTA FADILAH",
+            "github": "https://github.com/mdestafadilah",
+            "kota": "Tangerang"
+	},
+        {
+
+            "nama":"Kevin Putra",
+            "github":"https://github.com/kevinapps14",
+            "kota":"Jakarta"
         },
         {
-         "nama":"Jution Candra Kirana",
-         "github":"https://github.com/jutionck",
-         "kota":"Jakarta"
-        },
-        {
-         "nama":"Kevin Putra",
-         "github":"https://github.com/kevinapps14",
-         "kota":"Jakarta"
-        },
-        {
-            "nama" : "wibu-elite",
+            "nama" : "Miftahurrohman",
             "github" : "https://github.com/wibu-elite",
             "kota" : "Tuban"
         },
         {
-        "nama": "M. Ichsan Fauzan",
-        "github": "https://github.com/Misanfauzan",
-        "kota": "Jakarta Selatan"
-       },
-       {
-        "nama": "Kelvin Triansyah",
-        "github": "https://github.com/kelvintri",
-        "kota": "Denpasar"
-       }
+            "nama": "M.Perdana",
+            "github": "https://github.com/mohamadperdana",
+            "kota": "klaten"
+        },
+        {
+            "nama": "Muhammad Ali Wildan",
+            "github": "https://github.com/wildanicardi",
+            "kota": "Gresik"
+        },
+        {
+            "nama": "Kharis Alfian",
+            "github": "https://github.com/kharisalfian",
+            "kota": "Malang"
+        },
+        {
+            "nama":"Jimmy Arianda Bahari",
+            "github":"https://github.com/jimmyarianda",
+            "kota":"Pekanbaru"
+        },
+        {
+            "nama": "LUTFI IHSAN",
+            "github": "https://github.com/lutfiihsan",
+            "kota": "Bogor"
+        },
+        {
+            "nama":"Lukas Ono Harsongko",
+            "github":"https://github.com/LukasOnoHarsongko",
+            "kota":"Tangerang"  
+        },
+        {
+            "nama": "Juang Sabit Al Nadiev",
+            "github": "https://github.com/juangsabit",
+            "kota": "Jakarta Barat"
+        },
+        {
+            "nama": "Muhdi",
+            "github": "https://github.com/muhdi168",
+            "kota": "Jambi"
+        },
+        {
+            "nama" : "Mohammada Aprilianto",
+            "github" : "https://github.com/madaapril",
+            "kota" : "Tuban"    
+        },
+        {
+            "nama" : "Maulia Artadianti",
+            "github" : "https://github.com/mauliadianti",
+            "kota" : "Bandung"
+        },
+        {
+            "nama" : "Moch Vianto Rakanda W",
+            "github" : "https://github.com/MVRAKANDAW/",
+            "kota" : "Bandung"
+        },
+        {
+            "nama": "M. Ichsan Fauzan",
+            "github": "https://github.com/Misanfauzan",
+            "kota": "Jakarta Selatan"
+        },
+        {
+            "nama": "Muhammad Anshori",
+            "github": "https://github.com/anshori",
+            "kota": "Yogyakarta"
+        },
+        {
+            "nama": "Mohammad Alfi Rizzi",
+            "github": "https://github.com/mohammadalfirizzi",
+            "kota": "Kediri"
+        },
+        {
+            "nama": "Marcellinus Hari P",
+            "github": "https://github.com/feelingblue19",
+            "kota": "Yogyakarta"
+        },
+        {
+            "nama": "MOCH IQBAL AR RASYID",
+            "github": "https://github.com/kingrootid",
+            "kota": "Malang"
+        },
+        {
+            "nama": "Muhamad Arief Sanjani",
+            "github": "https://github.com/ariefsanjani",
+            "kota": "Jakarta"
+         },
+         {
+            "nama": "MAHMUDA KARIMA",
+            "github": "https://github.com/dakasakti",
+            "kota": "Palembang"
+        }
 
     ]
 
 }
+
+

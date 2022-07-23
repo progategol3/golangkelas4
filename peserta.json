@@ -7,14 +7,14 @@
             "kota": "Surabaya"
         },
         {
-            "nama": "Irawan",
-            "github": "https://github.com/irawan",
-            "kota": "Surabaya"
-        },
-        {
             "nama": "Muhammad Halim Dirgantara",
             "github": "https://github.com/halimdirgantara",
             "kota": "Sekadau"
+        }, 
+        {
+            "nama":"Mohamad Perdana Hartono",
+            "github":"https://github.com/mohamadperdana",
+            "kota" : "surakarta"
         },
         {
             "nama":"Jution Candra Kirana",

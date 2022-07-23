@@ -17,6 +17,7 @@
             "kota":"Sekadau"
         },
         {
+
             "nama":"Jution Candra Kirana",
             "github":"https://github.com/jutionck",
             "kota":"Jakarta"
@@ -30,6 +31,11 @@
             "nama" : "wibu-elite",
             "github" : "https://github.com/wibu-elite",
             "kota" : "Tuban"
+        },
+        {
+        "nama": "Muhdi",
+        "github": "https://github.com/muhdi168",
+        "kota": "Jambi"
         },
         {
             "nama" : "Mohammada Aprilianto",
@@ -56,7 +62,6 @@
             "github": "https://github.com/kingrootid",
             "kota": "Malang"
         }
-
     ]
 
 }

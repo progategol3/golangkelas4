@@ -1,7 +1,5 @@
 {
 
-  "peserta": [
-
     "peserta" : [
         {
             "nama":"Rachmad Irawan",
@@ -19,30 +17,30 @@
             "kota":"Sekadau"
         },
         {
-         "nama":"Jution Candra Kirana",
-         "github":"https://github.com/jutionck",
-         "kota":"Jakarta"
+            "nama":"Jution Candra Kirana",
+            "github":"https://github.com/jutionck",
+            "kota":"Jakarta"
         },
         {
-         "nama":"Kevin Putra",
-         "github":"https://github.com/kevinapps14",
-         "kota":"Jakarta"
-         },
-         {
+            "nama":"Kevin Putra",
+            "github":"https://github.com/kevinapps14",
+            "kota":"Jakarta"
+        },
+        {
             "nama" : "wibu-elite",
             "github" : "https://github.com/wibu-elite",
             "kota" : "Tuban"
         },
-         {
-        "nama": "M. Ichsan Fauzan",
-        "github": "https://github.com/Misanfauzan",
-        "kota": "Jakarta Selatan"
-       },
-       {
-      "nama": "MOCH IQBAL AR RASYID",
-      "github": "https://github.com/kingrootid",
-      "kota": "Malang"
-    }
+        {
+            "nama": "M. Ichsan Fauzan",
+            "github": "https://github.com/Misanfauzan",
+            "kota": "Jakarta Selatan"
+        },
+        {
+            "nama": "MOCH IQBAL AR RASYID",
+            "github": "https://github.com/kingrootid",
+            "kota": "Malang"
+        }
 
     ]
 

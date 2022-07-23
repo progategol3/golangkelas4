@@ -32,6 +32,11 @@
             "kota" : "Tuban"
         },
         {
+        "nama": "Juang Sabit Al Nadiev",
+        "github": "https://github.com/juangsabit",
+        "kota": "Jakarta Barat"
+        },
+        {
             "nama": "Muhdi",
             "github": "https://github.com/muhdi168",
             "kota": "Jambi"
@@ -71,6 +76,7 @@
             "github": "https://github.com/kingrootid",
             "kota": "Malang"
         }
+
     ]
 
 }

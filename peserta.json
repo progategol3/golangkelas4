@@ -1,7 +1,5 @@
 {
 
-  "peserta": [
-
     "peserta" : [
         {
             "nama":"Rachmad Irawan",
@@ -20,39 +18,50 @@
         },
         {
 
-         "nama":"Jution Candra Kirana",
-         "github":"https://github.com/jutionck",
-         "kota":"Jakarta"
+            "nama":"Jution Candra Kirana",
+            "github":"https://github.com/jutionck",
+            "kota":"Jakarta"
         },
         {
-
-         "nama":"Kevin Putra",
-         "github":"https://github.com/kevinapps14",
-         "kota":"Jakarta"
-         },
-         {
+            "nama":"Kevin Putra",
+            "github":"https://github.com/kevinapps14",
+            "kota":"Jakarta"
+        },
+        {
             "nama" : "wibu-elite",
             "github" : "https://github.com/wibu-elite",
             "kota" : "Tuban"
         },
-         {
-        "nama": "M. Ichsan Fauzan",
-        "github": "https://github.com/Misanfauzan",
-        "kota": "Jakarta Selatan"
-       },
-         {
+        {
         "nama": "Muhdi",
         "github": "https://github.com/muhdi168",
         "kota": "Jambi"
-       }
-
-       {
-      "nama": "MOCH IQBAL AR RASYID",
-      "github": "https://github.com/kingrootid",
-      "kota": "Malang"
-    }
-
-
+        },
+        {
+            "nama" : "Mohammada Aprilianto",
+            "github" : "https://github.com/madaapril",
+            "kota" : "Tuban"    
+        },
+        {
+            "nama" : "Maulia Artadianti",
+            "github" : "https://github.com/mauliadianti",
+            "kota" : "Bandung"
+        },
+        {
+            "nama" : "Moch Vianto Rakanda W",
+            "github" : "https://github.com/MVRAKANDAW/",
+            "kota" : "Bandung"
+        },
+        {
+            "nama": "M. Ichsan Fauzan",
+            "github": "https://github.com/Misanfauzan",
+            "kota": "Jakarta Selatan"
+        },
+        {
+            "nama": "MOCH IQBAL AR RASYID",
+            "github": "https://github.com/kingrootid",
+            "kota": "Malang"
+        }
     ]
 
 }

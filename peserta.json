@@ -1,4 +1,5 @@
 {
+
     "peserta": [
         {
             "nama": "Rachmad Irawan",
@@ -56,6 +57,11 @@
             "kota": "Jakarta Selatan"
         },
         {
+            "nama": "Mohammad Alfi Rizzi",
+            "github": "https://github.com/mohammadalfirizzi",
+            "kota": "Kediri"
+        },
+        {
             "nama": "Marcellinus Hari P",
             "github": "https://github.com/feelingblue19",
             "kota": "Yogyakarta"
@@ -68,4 +74,5 @@
     ]
 
 }
+
 

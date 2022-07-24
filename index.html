@@ -16,13 +16,43 @@
             <p></p>
             <ul>
                 <li>Latihan Git</li>
-                <li>HTML & CSS</li>
+                <li>HTML & CSS I</li>
+                <li>HTML & CSS II</li>
                 <li>Golang</li>
             </ul>
         </div>
-        
-        
     </header>
-    <footer></footer>
+    <h2>PESERTA</h2>
+    <table id="table" class="center">
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>GitHub</th>
+            <th>Kota</th>
+        </tr>
+    </table>
+    
+    <script>
+        // fetch json
+        fetch('peserta.json')
+        .then(response => response.json())
+        .then(data => {
+            const json = JSON.stringify(data.peserta);
+            const json_parse = JSON.parse(json);
+            for (let i = 0; i < json_parse.length; i++) {
+                document.getElementById('table').innerHTML += `
+                <tr>
+                    <td style="text-align: center;">${i+1}</td>
+                    <td>${json_parse[i].nama}</td>
+                    <td><a href="${json_parse[i].github}" target="_blank">${json_parse[i].github}</a></td>
+                    <td>${json_parse[i].kota}</td>
+                </tr>
+                `;
+            }
+        })
+        .catch(error => {
+            console.log(error);
+        });
+    </script>
 </body>
 </html>

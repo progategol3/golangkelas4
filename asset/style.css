@@ -1,14 +1,11 @@
 
 body{
     font-family: Futura;
-    float: left;
-    /* background-color: black; */
     background-size: 1365px 700px;
-    background-image: url(D:/FOLDER\ PROJECT\ GO/4882066.jpg);
-
+    background-color: #65c7f7;
 }
 h1{
-    margin-left: 340px;
+    text-align: center;
     font-size: 40px;
     color: #000;
     /* border-bottom: 1.8px solid rgba(127, 131, 131, 0.089); */
@@ -28,7 +25,7 @@ h1{
 }
 
 h2{
-    margin-left: 590px;
+    text-align: center;
     color: rgba(245, 239, 240, 0.863);
 }
 body p{
@@ -37,15 +34,48 @@ body p{
 }
 .top{
     padding-top: 100px;
-    padding-bottom: 100px;
-    top: 0px;
-    
+    padding-bottom: 100px;    
 }
 ul{
     color: beige;
     list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
 }
-/* ul li{
-    flex
-} */
+li {
+    float: left;
+    width: 25%;
+}
 
+header {
+    border-bottom: 1px solid rgba(124, 124, 124, 0.5);
+}
+
+#table {
+    border-collapse: collapse;
+    width: 80%;
+}
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0052D4;
+    color: white;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+}

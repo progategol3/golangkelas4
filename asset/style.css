@@ -1,8 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 
 body{
     font-family: Futura;
     background-size: 1365px 700px;
-    background-color: #65c7f7;
+    background-color: #292929;
 }
 h1{
     text-align: center;
@@ -14,7 +17,7 @@ h1{
     background-clip: text;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    text-fill-color: transparent !important;
+    color: transparent !important;
     animation: animate 2.5s linear infinite;
     
 }
@@ -24,7 +27,7 @@ h1{
     }
 }
 
-h2{
+h2 {
     text-align: center;
     color: rgba(245, 239, 240, 0.863);
 }
@@ -52,30 +55,99 @@ header {
     border-bottom: 1px solid rgba(124, 124, 124, 0.5);
 }
 
-#table {
-    border-collapse: collapse;
-    width: 80%;
-}
-#table td, #table th {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-#table tr:hover {background-color: #ddd;}
-
-#table th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: #0052D4;
-    color: white;
-}
-
-table.center {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h3 {
     text-align: center;
+}
+
+.container {
+    margin: 20px;
+    text-align: center;
+}
+
+.item {
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item-box {
+    height: 240px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 4px #cddcff;
+}
+
+.green {
+    background-color: #11D8B3;
+}
+
+.yellow {
+    background-color: #FFD466;
+}
+
+.red {
+    background-color: #ED456D;
+}
+
+.blue {
+    background-color: #3D7DD8;
+    background-image: url("https://prog-8.com/images/html/advanced/php.png");
+    background-size: cover;
+}
+
+  /* Untuk Tablet */
+  /* Tambahkan breakpoint max-width: 1000px */
+@media (max-width: 1000px) {
+    .item {
+        width: 50%;
+    }
+}
+
+
+  /* Untuk Smartphone */
+  /* Tambahkan breakpoint max-width: 670px */
+@media (max-width: 670px) {
+    .item {
+        width: 100%;
+    }
+}
+
+
+.btn {
+    border-radius: 10px;
+}
+
+.btn:link {
+    text-decoration: none
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.name {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    color: #000;
+}
+
+.github {
+    padding: 10px 30px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0px 5px #1a7940;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.fas {
+    color: #000000;
 }

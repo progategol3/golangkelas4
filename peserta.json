@@ -146,7 +146,12 @@
             "nama": "Kelvin Triyansyah",
             "github": "https://github.com/kelvintri",
             "kota": "Denpasar"
-        }
+        },
+	{
+		"nama": "Mohammad Suhartono",
+		"github": "https://github.com/msuhartono",
+		"kota": "Mukomuko"
+	}
     ]
 
 }

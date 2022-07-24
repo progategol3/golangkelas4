@@ -21,11 +21,11 @@
             "github":"https://github.com/jutionck",
             "kota":"Jakarta"
         },
-	{
+	      {
             "nama": "MUCHAMAD DESTA FADILAH",
             "github": "https://github.com/mdestafadilah",
             "kota": "Tangerang"
-	},
+	      },
         {
 
             "nama":"Kevin Putra",
@@ -126,8 +126,27 @@
             "nama": "MAHMUDA KARIMA",
             "github": "https://github.com/dakasakti",
             "kota": "Palembang"
+        },
+        {
+            "nama": "M ADRIANSYAH AZHARI",
+            "github": "https://github.com/Psuta90",
+            "kota": "Jakarta"
+         },   
+         {
+            "nama": "Muhammad Akhyar",
+            "github": "https://github.com/Muhammad-Akhyar",
+            "kota": "Kisaran"
+         },
+        {
+            "nama": "Joko Susanto",
+            "github": "https://github.com/anthomars",
+            "kota": "Tangerang Selatan"
+         },
+         {
+            "nama": "Kelvin Triyansyah",
+            "github": "https://github.com/kelvintri",
+            "kota": "Denpasar"
         }
-
     ]
 
 }

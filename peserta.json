@@ -146,7 +146,12 @@
             "nama": "Kelvin Triyansyah",
             "github": "https://github.com/kelvintri",
             "kota": "Denpasar"
-        }
+         },
+	 {
+            "nama": "Rausyan Fiqrussalam",
+            "github": "https://github.com/noieda",
+            "kota": "Jakarta"
+	 }
     ]
 
 }

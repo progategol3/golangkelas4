@@ -24,6 +24,7 @@
 		</div>
 	</header>
 	<h2>PESERTA</h2>
+	<input type="search" onkeyup="searchPeserta()" id="search" class="input-search" placeholder="Cari nama peserta" />
 	<div class="container" id="container"></div>
 	
 	<script>
@@ -49,6 +50,19 @@
 		.catch(error => {
 			console.log(error);
 		});
+
+		// search peserta
+		function searchPeserta(){
+	        var txt = document.getElementById('search').value;
+	        var peserta = document.getElementsByClassName("name");
+			for (var i = 0; i < peserta.length; i++) {
+			   if(peserta[i].innerHTML.toUpperCase().indexOf(txt.toUpperCase()) != -1){
+			   		peserta[i].parentElement.parentElement.style.display = "block";
+			   }else{
+			   		peserta[i].parentElement.parentElement.style.display = "none";
+			   }
+			}
+	    }
 	</script>
 </body>
 </html>

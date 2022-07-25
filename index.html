@@ -12,22 +12,19 @@
 
 <body onload="loadPeserta()">
 	<header>
-		<div class="cover"></div>
-		<div class="top">
-			<h1>DTS PROA GOLANG BATCH 3 KELAS 4
-			</h1>
-			<h2>Welcome to Our Website</h2>
-			<p></p>
-			<ul>
-				<li><a class="btn" href="https://progate.com/courses/git">Latihan Git</a></li>
-				<li><a class="btn" href="https://progate.com/courses/html">HTML & CSS I</a></li>
-				<li><a class="btn" href="https://progate.com/courses/html">HTML & CSS II</a></li>
-				<li><a class="btn" href="https://progate.com/courses/go">Golang</a></li>
-			</ul>
+		<div class="topnav">
+			<a class="active" href="#">Beranda</a>
+			<a href="https://progate.com/courses/git">Latihan Git</a>
+			<a href="https://progate.com/courses/html">HTML & CSS I</a>
+			<a href="https://progate.com/courses/html">HTML & CSS II</a>
+			<a href="https://progate.com/courses/go">Golang</a>
+			<input type="search" onkeyup="searchPeserta()" id="search" class="input-search"
+				placeholder="Cari nama peserta" />
 		</div>
 	</header>
-	<h2>PESERTA</h2>
-	<input type="search" onkeyup="searchPeserta()" id="search" class="input-search" placeholder="Cari nama peserta" />
+
+	<h1>DTS PROA GOLANG BATCH 3 KELAS 4</h1>
+	<h2>DAFTAR PESERTA</h2>
 	<div class="container" id="container"></div>
 
 	<script>

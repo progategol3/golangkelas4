@@ -126,6 +126,11 @@
             "kota": "Palembang"
         },
         {
+           "nama": "Marojahan Putra",
+            "github": "https://github.com/myeputrap5",
+            "kota": "Jakarta Timur"
+        },
+        {
             "nama": "M ADRIANSYAH AZHARI",
             "github": "https://github.com/Psuta90",
             "kota": "Jakarta"
@@ -194,6 +199,7 @@
             "nama": "Julpinsyah",
             "github": "https://github.com/Julpinsyah",
             "kota": "Medan"
+
         }
     ]
 }

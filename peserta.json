@@ -1,4 +1,5 @@
 {
+
     "peserta": [
         {
             "nama": "Rachmad Irawan",
@@ -174,7 +175,13 @@
             "nama": "M. Eko Prasetyo",
             "github": "https://github.com/ekopst",
             "kota": "Surabaya"
+         },
+          {
+            "nama": "Julpinsyah",
+            "github": "https://github.com/Julpinsyah",
+            "kota": "Medan"
          }
 
     ]
 }
+

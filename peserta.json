@@ -1,5 +1,4 @@
 {
-
     "peserta": [
         {
             "nama": "Rachmad Irawan",
@@ -146,7 +145,12 @@
             "github": "https://github.com/kelvintri",
             "kota": "Denpasar"
         },
-         {
+        {
+            "nama": "Mohammad Ghifari Yusuf",
+            "github": "https://github.com/mghifariyusuf",
+            "kota": "Bogor"
+        },
+        {
             "nama": "Moh. Yaskurun",
             "github": "https://github.com/yaskurun",
             "kota": "Pekalongan - Jateng"
@@ -170,28 +174,26 @@
             "nama": "Muh. Nasrul",
             "github": "https://github.com/mnasruls",
             "kota": "Makassar"
-         },
-	       {
+        },
+        {
             "nama": "Rausyan Fiqrussalam",
             "github": "https://github.com/noieda",
             "kota": "Jakarta"
-	       },
-	       {
+        },
+        {
             "nama": "Mohammad Suhartono",
             "github": "https://github.com/msuhartono",
             "kota": "Mukomuko"
-	       },
-         {
+        },
+        {
             "nama": "M. Eko Prasetyo",
             "github": "https://github.com/ekopst",
             "kota": "Surabaya"
-         },
-          {
+        },
+        {
             "nama": "Julpinsyah",
             "github": "https://github.com/Julpinsyah",
             "kota": "Medan"
-         }
-
+        }
     ]
 }
-

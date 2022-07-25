@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
+
+h1 {
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     color: #000;
     /* border-bottom: 1.8px solid rgba(127, 131, 131, 0.089); */
@@ -18,10 +19,11 @@ h1{
     -webkit-text-fill-color: transparent !important;
     color: transparent !important;
     animation: animate 2.5s linear infinite;
-    
+
 }
-@keyframes animate{
-    to{
+
+@keyframes animate {
+    to {
         background-position: 200% center;
     }
 }
@@ -29,15 +31,16 @@ h1{
 h2 {
     text-align: center;
     color: rgba(245, 239, 240, 0.863);
-    float:left;
     margin-left: 30px;
 }
-body p{
+
+body p {
     font-family: Geneva;
     color: beige;
 }
-.cover{
-    object-fit: cover;  
+
+.cover {
+    object-fit: cover;
     background-image: url(/asset/images/header.jpeg);
     background-size: cover;
     height: 500px;
@@ -48,10 +51,12 @@ body p{
     height: 200px;
     background-color: #FFD466;
 }
-ul{
+
+ul {
     list-style: none;
     text-align: center;
 }
+
 li {
     padding: 25px;
     display: inline-block;
@@ -64,7 +69,7 @@ li {
     display: inline-block;
     opacity: 0.8;
     border-radius: 2px;
-  }
+}
 
 header {
     border-bottom: 1px solid rgba(124, 124, 124, 0.5);
@@ -114,8 +119,8 @@ h3 {
     background-size: cover;
 }
 
-  /* Untuk Tablet */
-  /* Tambahkan breakpoint max-width: 1000px */
+/* Untuk Tablet */
+/* Tambahkan breakpoint max-width: 1000px */
 @media (max-width: 1000px) {
     .item {
         width: 50%;
@@ -123,8 +128,8 @@ h3 {
 }
 
 
-  /* Untuk Smartphone */
-  /* Tambahkan breakpoint max-width: 670px */
+/* Untuk Smartphone */
+/* Tambahkan breakpoint max-width: 670px */
 @media (max-width: 670px) {
     .item {
         width: 100%;
@@ -149,8 +154,6 @@ h3 {
 }
 
 .name {
-    margin: 0px 0px;
-    padding: 0px 0px;
     color: #fff;
 }
 
@@ -173,21 +176,23 @@ h3 {
     color: #000000;
 }
 
-.float-left{
+.float-left {
     float: left
 }
-.input-search{
-    padding:10px;
-    border:2px solid #3d7dd8;
-    border-radius:5px;
+
+.input-search {
+    padding: 10px;
+    border: 2px solid #3d7dd8;
+    border-radius: 5px;
     float: right;
     margin-right: 30px;
-    margin-top:10px;
+    margin-top: 10px;
     outline: none;
     background-color: #d8d3d4;
     transition: all 0.2s;
 }
-.input-search:focus{
+
+.input-search:focus {
     box-shadow: 0px 0px 13px -1px white;
     background-color: white;
 }

@@ -3,12 +3,11 @@
 }
 
 body{
-    font-family: Futura;
-    background-size: 1365px 700px;
-    background-color: #292929;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 h1{
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     color: #000;
     /* border-bottom: 1.8px solid rgba(127, 131, 131, 0.089); */
@@ -30,29 +29,46 @@ h1{
 h2 {
     text-align: center;
     color: rgba(245, 239, 240, 0.863);
+    float:left;
+    margin-left: 30px;
 }
 body p{
     font-family: Geneva;
     color: beige;
 }
-.top{
-    padding-top: 100px;
-    padding-bottom: 100px;    
+.cover{
+    object-fit: cover;  
+    background-image: url(/asset/images/header.jpeg);
+    background-size: cover;
+    height: 500px;
+}
+
+.top {
+    padding: 50px;
+    height: 200px;
+    background-color: #FFD466;
 }
 ul{
-    color: beige;
     list-style: none;
-    width: 100%;
     text-align: center;
-    padding: 0;
 }
 li {
-    float: left;
-    width: 25%;
+    padding: 25px;
+    display: inline-block;
 }
+
+.btn {
+    background-color: rgb(179, 62, 124);
+    padding: 20px 40px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 2px;
+  }
 
 header {
     border-bottom: 1px solid rgba(124, 124, 124, 0.5);
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -60,8 +76,9 @@ h3 {
 }
 
 .container {
-    margin: 20px;
+    margin: 30px 20px 20px 20px;
     text-align: center;
+    clear: both;
 }
 
 .item {
@@ -127,10 +144,14 @@ h3 {
     opacity: 1;
 }
 
+.fa-user-astronaut:before {
+    color: white;
+}
+
 .name {
     margin: 0px 0px;
     padding: 0px 0px;
-    color: #000;
+    color: #fff;
 }
 
 .github {
@@ -150,4 +171,23 @@ h3 {
 
 .fas {
     color: #000000;
+}
+
+.float-left{
+    float: left
+}
+.input-search{
+    padding:10px;
+    border:2px solid #3d7dd8;
+    border-radius:5px;
+    float: right;
+    margin-right: 30px;
+    margin-top:10px;
+    outline: none;
+    background-color: #d8d3d4;
+    transition: all 0.2s;
+}
+.input-search:focus{
+    box-shadow: 0px 0px 13px -1px white;
+    background-color: white;
 }

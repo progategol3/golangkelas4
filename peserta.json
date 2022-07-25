@@ -207,9 +207,14 @@
 
         },
         {
+            "nama": "Alfian",
+            "github": "https://github.com/alfiancikoa",
+        },
+        {
             "nama": "Moh. Nur Zamharir",
             "github": "https://github.com/Zamharir77",
             "kota": "Pekalongan"
+
         }
     ]
 }

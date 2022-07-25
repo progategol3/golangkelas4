@@ -149,6 +149,32 @@
             "nama": "M Donny Rahmat K",
             "github": "https://github.com/DonnyRahmat",
             "kota": "Tangerang Selatan"
-        }
+        },
+        {
+            "nama": "Kennis Nababan",
+            "github": "https://github.com/k3nnyS",
+            "kota": "Malang"
+        },
+        {
+            "nama": "Muh. Nasrul",
+            "github": "https://github.com/mnasruls",
+            "kota": "Makassar"
+         },
+	       {
+            "nama": "Rausyan Fiqrussalam",
+            "github": "https://github.com/noieda",
+            "kota": "Jakarta"
+	       },
+	       {
+            "nama": "Mohammad Suhartono",
+            "github": "https://github.com/msuhartono",
+            "kota": "Mukomuko"
+	       },
+         {
+            "nama": "M. Eko Prasetyo",
+            "github": "https://github.com/ekopst",
+            "kota": "Surabaya"
+         }
+
     ]
 }

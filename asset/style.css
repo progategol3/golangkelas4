@@ -4,22 +4,14 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: wheat;
 }
 
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
-    color: #000;
-    /* border-bottom: 1.8px solid rgba(127, 131, 131, 0.089); */
-    background: linear-gradient(to right, #fff 20%, #65c7f7 40%, #0052D4 60%, #fff 80%);
-    background-size: 200% auto;
-    background-clip: text;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    color: transparent !important;
-    animation: animate 2.5s linear infinite;
-
+    color: #3D7DD8;
 }
 
 @keyframes animate {
@@ -30,8 +22,6 @@ h1 {
 
 h2 {
     text-align: center;
-    color: rgba(245, 239, 240, 0.863);
-    margin-left: 30px;
 }
 
 body p {
@@ -182,11 +172,11 @@ h3 {
 
 .input-search {
     padding: 10px;
-    border: 2px solid #3d7dd8;
     border-radius: 5px;
     float: right;
     margin-right: 30px;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     outline: none;
     background-color: #d8d3d4;
     transition: all 0.2s;
@@ -195,4 +185,32 @@ h3 {
 .input-search:focus {
     box-shadow: 0px 0px 13px -1px white;
     background-color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
 }

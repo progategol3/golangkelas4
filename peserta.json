@@ -199,7 +199,11 @@
             "nama": "Julpinsyah",
             "github": "https://github.com/Julpinsyah",
             "kota": "Medan"
-
+        },
+         {
+            "nama": "test",
+            "github": "https://github.com/Julpinsyah",
+            "kota": "Medan"
         }
     ]
 }

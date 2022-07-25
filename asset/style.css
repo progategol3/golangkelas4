@@ -1,14 +1,14 @@
-
-body{
-    font-family: Futura;
-    float: left;
-    /* background-color: black; */
-    background-size: 1365px 700px;
-    background-image: url(D:/FOLDER\ PROJECT\ GO/4882066.jpg);
-
+* {
+    box-sizing: border-box;
 }
-h1{
-    margin-left: 340px;
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     color: #000;
     /* border-bottom: 1.8px solid rgba(127, 131, 131, 0.089); */
@@ -17,35 +17,182 @@ h1{
     background-clip: text;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    text-fill-color: transparent !important;
+    color: transparent !important;
     animation: animate 2.5s linear infinite;
-    
+
 }
-@keyframes animate{
-    to{
+
+@keyframes animate {
+    to {
         background-position: 200% center;
     }
 }
 
-h2{
-    margin-left: 590px;
+h2 {
+    text-align: center;
     color: rgba(245, 239, 240, 0.863);
+    margin-left: 30px;
 }
-body p{
+
+body p {
     font-family: Geneva;
     color: beige;
 }
-.top{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    top: 0px;
-    
-}
-ul{
-    color: beige;
-    list-style: none;
-}
-/* ul li{
-    flex
-} */
 
+.cover {
+    object-fit: cover;
+    background-image: url(/asset/images/header.jpeg);
+    background-size: cover;
+    height: 500px;
+}
+
+.top {
+    padding: 50px;
+    height: 200px;
+    background-color: #FFD466;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    padding: 25px;
+    display: inline-block;
+}
+
+.btn {
+    background-color: rgb(179, 62, 124);
+    padding: 20px 40px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 2px;
+}
+
+header {
+    border-bottom: 1px solid rgba(124, 124, 124, 0.5);
+    margin-bottom: 50px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container {
+    margin: 30px 20px 20px 20px;
+    text-align: center;
+    clear: both;
+}
+
+.item {
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item-box {
+    height: 240px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 4px #cddcff;
+}
+
+.green {
+    background-color: #11D8B3;
+}
+
+.yellow {
+    background-color: #FFD466;
+}
+
+.red {
+    background-color: #ED456D;
+}
+
+.blue {
+    background-color: #3D7DD8;
+    background-image: url("https://prog-8.com/images/html/advanced/php.png");
+    background-size: cover;
+}
+
+/* Untuk Tablet */
+/* Tambahkan breakpoint max-width: 1000px */
+@media (max-width: 1000px) {
+    .item {
+        width: 50%;
+    }
+}
+
+
+/* Untuk Smartphone */
+/* Tambahkan breakpoint max-width: 670px */
+@media (max-width: 670px) {
+    .item {
+        width: 100%;
+    }
+}
+
+
+.btn {
+    border-radius: 10px;
+}
+
+.btn:link {
+    text-decoration: none
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa-user-astronaut:before {
+    color: white;
+}
+
+.name {
+    color: #fff;
+}
+
+.github {
+    padding: 10px 30px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0px 5px #1a7940;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.fas {
+    color: #000000;
+}
+
+.float-left {
+    float: left
+}
+
+.input-search {
+    padding: 10px;
+    border: 2px solid #3d7dd8;
+    border-radius: 5px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    outline: none;
+    background-color: #d8d3d4;
+    transition: all 0.2s;
+}
+
+.input-search:focus {
+    box-shadow: 0px 0px 13px -1px white;
+    background-color: white;
+}

@@ -1,28 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DTS PROA GOLANG BATCH 3</title>
-    <link rel="stylesheet" href="asset/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DTS PROA GOLANG BATCH 3</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+	<link rel="stylesheet" href="asset/style.css">
 </head>
-<body>
-    <header>
-        <div class="top">
-            <h1>DTS PROA GOLANG BATCH 3 KELAS 4
-            </h1>
-            <h2>Welcome to Our Website</h2>
-            <p></p>
-            <ul>
-                <li>Latihan Git</li>
-                <li>HTML & CSS</li>
-                <li>Golang</li>
-            </ul>
-        </div>
-        
-        
-    </header>
-    <footer></footer>
+
+<body onload="loadPeserta()">
+	<header>
+		<div class="cover"></div>
+		<div class="top">
+			<h1>DTS PROA GOLANG BATCH 3 KELAS 4
+			</h1>
+			<h2>Welcome to Our Website</h2>
+			<p></p>
+			<ul>
+				<li><a class="btn" href="https://progate.com/courses/git">Latihan Git</a></li>
+				<li><a class="btn" href="https://progate.com/courses/html">HTML & CSS I</a></li>
+				<li><a class="btn" href="https://progate.com/courses/html">HTML & CSS II</a></li>
+				<li><a class="btn" href="https://progate.com/courses/go">Golang</a></li>
+			</ul>
+		</div>
+	</header>
+	<h2>PESERTA</h2>
+	<input type="search" onkeyup="searchPeserta()" id="search" class="input-search" placeholder="Cari nama peserta" />
+	<div class="container" id="container"></div>
+
+	<script>
+		function loadPeserta() {
+			// fetch json
+			fetch('peserta.json')
+				.then(response => response.json())
+				.then(data => {
+					document.getElementById('container').innerHTML = ""
+
+					const json = JSON.stringify(data.peserta);
+					const json_parse = JSON.parse(json);
+
+					for (let i = 0; i < json_parse.length; i++) {
+						document.getElementById('container').innerHTML += `
+					<div class="item">
+						<div class="item-box blue">
+							<p><i class="fas fa-user-astronaut fa-4x"></i></p>
+							<h2 class="name">${json_parse[i].nama}</h2>
+							<p>${json_parse[i].kota}</p>
+							<a href="${json_parse[i].github}" title="${json_parse[i].github}" target="_blank" class="btn github"><i class="fab fa-github"></i></a>
+						</div>
+					</div>
+				</div>
+				`;
+					}
+				})
+				.catch(error => {
+					console.log(error);
+				});
+		}
+
+		// search peserta
+		function searchPeserta() {
+			var txt = document.getElementById('search').value;
+			var peserta = document.getElementsByClassName("name");
+			for (var i = 0; i < peserta.length; i++) {
+				if (peserta[i].innerHTML.toUpperCase().indexOf(txt.toUpperCase()) != -1) {
+					peserta[i].parentElement.parentElement.style.display = "block";
+				} else {
+					peserta[i].parentElement.parentElement.style.display = "none";
+				}
+			}
+		}
+	</script>
 </body>
+
 </html>

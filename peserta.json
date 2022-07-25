@@ -146,13 +146,18 @@
             "nama": "Kelvin Triyansyah",
             "github": "https://github.com/kelvintri",
             "kota": "Denpasar"
-        }
-        ,
+         },
+	       {
+            "nama": "Mohammad Suhartono",
+            "github": "https://github.com/msuhartono",
+            "kota": "Mukomuko"
+	       },
          {
             "nama": "M. Eko Prasetyo",
             "github": "https://github.com/ekopst",
             "kota": "Surabaya"
         }
+
     ]
 
 }

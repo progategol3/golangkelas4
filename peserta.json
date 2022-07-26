@@ -154,6 +154,7 @@
             "nama": "Mohammad Ghifari Yusuf",
             "github": "https://github.com/mghifariyusuf",
             "kota": "Bogor"
+<<<<<<< HEAD
         },
         {
             "nama": "Moh. Yaskurun",
@@ -225,6 +226,8 @@
             "nama":"Mahendra Wijaya",
             "github":"https://github.com/mahendraw1710",
             "kota":"Sidoarjo"  
+=======
+>>>>>>> 10976a4... Nambah peserta Ghifari
         }
     ]
 }

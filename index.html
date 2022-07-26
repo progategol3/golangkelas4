@@ -38,6 +38,21 @@
 					const json = JSON.stringify(data.peserta);
 					const json_parse = JSON.parse(json);
 
+					if (json_parse instanceof Array) {
+						json_parse.sort((a,b)=>{
+							if ( a.nama < b.nama ){
+								return -1;
+							}
+							if ( a.nama > b.nama ){
+								return 1;
+							}
+							return 0;
+						}).map(data=>{
+							data.nama = titleCase(data.nama)
+							return data;
+						})
+					}
+
 					for (let i = 0; i < json_parse.length; i++) {
 						document.getElementById('container').innerHTML += `
 					<div class="item">
@@ -68,6 +83,15 @@
 					peserta[i].parentElement.parentElement.style.display = "none";
 				}
 			}
+		}
+
+		// String helper titlecase
+		function titleCase(str) {
+			str = str.toLowerCase().split(' ');
+			for (var i = 0; i < str.length; i++) {
+				str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+			}
+			return str.join(' ');
 		}
 	</script>
 </body>

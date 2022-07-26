@@ -28,6 +28,7 @@
 	<div class="container" id="container"></div>
 
 	<script>
+
 		function loadPeserta() {
 			// fetch json
 			fetch('peserta.json')
@@ -43,7 +44,7 @@
 					<div class="item">
 						<div class="item-box blue">
 							<p><i class="fas fa-user-astronaut fa-4x"></i></p>
-							<h2 class="name">${json_parse[i].nama}</h2>
+							<h2 class="name">${namaPertama(json_parse[i].nama)}</h2>
 							<p>${json_parse[i].kota}</p>
 							<a href="${json_parse[i].github}" title="${json_parse[i].github}" target="_blank" class="btn github"><i class="fab fa-github"></i></a>
 						</div>
@@ -55,6 +56,15 @@
 				.catch(error => {
 					console.log(error);
 				});
+		}
+
+		// Huruf Awal Besar
+		function namaPertama(str){
+			const s = str.split(" ");
+			for (let i = 0; i < s.length; i++) {
+				s[i] = s[i].charAt(0).toUpperCase() + s[i].slice(1).toLowerCase();
+			}
+			return s.join(" ");
 		}
 
 		// search peserta
